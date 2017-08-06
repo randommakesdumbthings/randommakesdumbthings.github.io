@@ -48,7 +48,7 @@ a {
 }
 a:hover,a:active,a:focus{
     text-decoration: none;
-    color: rgba(231, 76, 60, 1);
+    color: rgba(146, 39, 143, 1);
     opacity: 0.9;
     outline: none;
 }
@@ -601,7 +601,7 @@ a:hover,a:active,a:focus{
 }
 
 .block .address .address-desc .address-info .address-info-icon i {
-    color: #de2920;
+    color: #92278f;
     font-size: 21px;
     padding: 45% 0%;
     position: relative;
@@ -634,7 +634,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background: #de2920;
+    background: #92278f;
     border: 1px solid transparent;
     width: 100%;
     padding: 13px;
