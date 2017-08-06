@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Youtuber Template - Documentation</title>
+
+	<!-- CSS -->
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,300,400">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400">
+
+	<link href="assets/css/prettify.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container main">
+		<div class="row">
+
+			<div class="col-md-3">
+
+				<div class="sidebar hidden-print my_affix" role="complementary" data-spy="affix" data-offset-top="100" data-offset-bottom="200">
+					<ul class="nav sidenav">
+						<li class="active"><a href="#introduction">Introduction</a></li>
+						<li><a href="#feature">Template Features</a></li>
+						<li><a href="#start">Getting Started</a></li>
+						<li><a href="#header">Header</a></li>
+						<li><a href="#featured">Featured Video Section</a></li>
+                        <li><a href="#about">About Youtuber Section</a></li>
+                        <li><a href="#portfolio">Portfolio Section</a></li>
+                        <li><a href="#sponsors">Sponsors Section</a></li>
+                        <li><a href="#testimonial">Testimonial Section</a></li>
+						<li><a href="#contact">Contact Section</a></li>
+						<li><a href="#contact-form">Working Contact form</a></li>
+						<li><a href="#footer">Footer Section</a></li>
+						<li><a href="#attribution">Attribution</a></li>
+						<li><a href="#changelog">Changelog</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="col-md-9">
+
+				<section class="header" id="introduction">
+					<h1>Youtuber - Documentation</h1>
+				</section>
+				<br/><br/>
+				<section class="section">
+					<div class="well-lg alert alert-success">
+						<h4>Good Day!</h4>
+						<p>Thank you for choosing our template - Youtuber . If you have any questions please feel free to submit a ticket in our website <a target="_blank" href="https://themewagon.com/wagon_tickets/">here</a>.</p>
+					</div>
+
+					<!-- Customization -->
+
+
+
+					<!-- template featurs -->
+
+					<h2 id="feature">Template Features</h2>
+
+					<ul>
+						<li><strong>One Page Template</strong></li>
+						<li><strong>Easy to customize:</strong> background, content</li>
+						<li>Fully responsive</li>
+						<li>Font Awesome Icons <strong>400+ icons</strong></li>
+                        <li>Owl Carousel <strong>Slider</strong></li>
+						<li>Powered by Twitter Bootstrap</li>
+						<li>Smooth animation</li>
+						<li>Working <strong>Contact form</strong> with validation</li>
+						<li><strong>Well Documented</strong></li>
+						<li>Clear &amp; Neat Design</li>
+						<li><strong>Accurate HTML code</strong> with comments</li>
+					</ul>
+
+					<!-- end of template featurs -->
+
+
+
+
+
+
+					<!-- getting started -->
+
+					<h2 id="start">Getting Started</h2>
+						
+					<p>Unzip the downloaded folder and find out the <strong>assets</strong>. There are all the template files in this folder. You can open the following files for viewing in browser.</p>
+					
+                    <ol>
+                        <li>
+                            <strong>css</strong>&nbsp;&mdash; folder with css files.
+                        </li>
+                        <li>
+                            <strong>fonts</strong>&nbsp;&mdash; folder with Font Awesome fonts.
+                        </li>
+                        <li>
+                            <strong>img</strong>&nbsp;&mdash; folder with image files and png Icon.
+                        </li>
+                        <li>
+                            <strong>js</strong>&nbsp;&mdash; folder with Javascript files.
+                        </li>
+                        
+                        <li>
+                            <strong>index.html</strong>&nbsp;&mdash; the main template file.
+                        </li>
+                        
+                    </ol>
+
+					<!-- end of getting started -->
+
+					<!-- navbar -->
+					<h2 id="header">Header Section</h2>
+					<p>In <strong>index.html</strong> file . HTML structure of the Header Section</p>
+
+					<pre class="prettyprint lang-basic">
+&lt;!-- Header area --&gt;
+    &lt;header id="header"&gt;
+
+        &lt;div class="header-left"&gt;
+            &lt;div class="header-text"&gt;
+                &lt;p class="welcome"&gt;Welcome to the channel of&lt;/p&gt;
+                &lt;h1 class="header-title"&gt;TECH_video&lt;/h1&gt;
+                &lt;p class="author"&gt;by Riana sen&lt;/p&gt;
+                &lt;div class="subscribe"&gt;
+                    &lt;p class="subscribe-text"&gt;Subscribe Now&lt;/p&gt;
+                    &lt;a target="_blank" href="https://www.youtube.com"&gt;
+                        &lt;img class="img-responsive" src="assets/img/youtube-icon.png"&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt; &lt;!--  /.subscribe  --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; &lt;!--  /.header-left  --&gt;
+
+        &lt;div class="header-right"&gt;&lt;/div&gt; &lt;!--  /.header-right  --&gt;
+
+    &lt;/header&gt; &lt;!--  /#header  --&gt;
+                    </pre>    
+					<!-- end of Header -->
+
+
+
+
+
+
+
+
+					<!-- Featured us section -->
+
+					<h2 id="featured">Featured Youtuber Section</h2>
+					<p>In <strong>index.html</strong> file. HTML structure of the Featured Section</p>
+					<pre class="prettyprint lang-basic">
+&lt;!--   Feauterd  video  area  --&gt;
+
+    &lt;section id="featured" class="latest_videos"&gt;
+        &lt;div class="container clearfix"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-12"&gt;
+                    &lt;div class="section-heading"&gt;
+                        &lt;h2 class="section-title"&gt;Featured Video&lt;/h2&gt;
+                        &lt;img src="assets/img/headline-bottom.png"&gt;
+                    &lt;/div&gt;  &lt;!--  /.section-heading  --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt; &lt;!--  /.row  --&gt;
+        &lt;/div&gt; &lt;!--  /.container  --&gt;
+
+        &lt;div class="featured-content"&gt;
+            &lt;div id="featured_videos"&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/VPRjCeoBqrI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/CGyEd0aKWZE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/xwsYvBYZcx4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/OKyJf35yiDY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/JRfuAukYTKg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+
+                &lt;div class="latest_item"&gt;
+                    &lt;iframe width="420" height="290" src="https://www.youtube.com/embed/tQYzoE4bVlQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+                &lt;/div&gt; &lt;!-- /.latest_item --&gt;
+            &lt;/div&gt; &lt;!-- /.featured_videos --&gt;
+
+            &lt;a class="prev" id="featured_videos_prev" href="#"&gt;&lt;!-- &lt;i class="fa fa-chevron-left"&gt;&lt;/i&gt; --&gt;&lt;/a&gt;
+            &lt;a class="next" id="featured_videos_next" href="#"&gt;&lt;!-- &lt;i class="fa fa-chevron-right"&gt; --&gt;&lt;/a&gt;     
+        &lt;/div&gt; &lt;!--   end of car-content --&gt;
+    &lt;/section&gt; <!--  /#featured .latest_videos  --&gt; -->
+					</pre>
+
+					<!-- end of Featured Section -->
+
+
+					<!-- About section -->
+
+					<h2 id="about">About Section</h2>
+					<p>In <strong>index.html</strong> file. About Section is expressed here</strong>. HTML structure of the About Section</p>
+					<pre class="prettyprint lang-basic">
+
+&lt;!--   About  area  --&gt;
+
+    &lt;section id="about"&gt;
+        &lt;div class="container"&gt;
+
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-12"&gt;
+                    &lt;div class="section-heading"&gt;
+                        &lt;h2 class="section-title"&gt;About Youtuber&lt;/h2&gt;
+                        &lt;img src="assets/img/headline-bottom.png"&gt;
+                    &lt;/div&gt; &lt;!--  / .section-heading  --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt; &lt;!--  / .row  --&gt;
+
+            &lt;div class="row"&gt;
+                &lt;div class="about-content"&gt;
+
+                    &lt;div class="col-md-3 col-sm-12 col-xs-12"&gt;
+                        &lt;div class="about-img"&gt;
+                            &lt;img class="img-responsive" src="assets/img/about.png"&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-9 col-sm-12 col-xs-12"&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-md-8 col-sm-6 col-xs-12"&gt;
+                                &lt;div class="about-description"&gt;
+                                    &lt;h3 class="heading"&gt;We are youtuber&lt;/h3&gt;
+                                    &lt;p&gt;
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate.
+                                    &lt;/p&gt;
+                                &lt;/div&gt; &lt;!--  / .about-desccription  --&gt;  
+                            &lt;/div&gt;
+                            &lt;div class="col-md-4 col-sm-6 col-xs-12"&gt;
+                                &lt;div class="find-us"&gt;
+                                    &lt;h3 class="heading"&gt;find us&lt;/h3&gt;
+                                    &lt;div class="row"&gt;
+                                        &lt;div class="col-md-4 col-sm-4 col-xs-4"&gt;
+                                            &lt;div class="social-icon find-fb"&gt;
+                                                &lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+                                            &lt;/div&gt; &lt;!--  / .find-fb  --&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-4 col-sm-4 col-xs-4"&gt;
+                                            &lt;div class="social-icon find-twit"&gt;
+                                                &lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+                                            &lt;/div&gt; &lt;!--  / .find-twit  --&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-4 col-sm-4 col-xs-4"&gt;
+                                            &lt;div class="social-icon find-link"&gt;
+                                                &lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;
+                                            &lt;/div&gt; &lt;!--  / .find-link  --&gt;
+                                        &lt;/div&gt; 
+                                    &lt;/div&gt; &lt;!--  / .row  --&gt;
+                                &lt;/div&gt; &lt;!--  / .find-us  --&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt; &lt;!--  / .row  --&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt; &lt;!--  / .about-content  --&gt;
+            &lt;/div&gt; &lt;!--  / .row  --&gt;
+        &lt;/div&gt; &lt;!--  /.container  --&gt;
+    &lt;/section&gt; &lt;!--  /#about  --&gt;
+					</pre>
+
+					<!-- end of About section -->
+
+					<h2 id="portfolio">Portfolio Section</h2>
+					<p>In <strong>index.html</strong> file.  HTML structure of Portfolio section.</p>
+					<pre class="prettyprint lang-basic">
+&lt;!-- Portfolio Area --&gt;
+
+    &lt;section id="portfolio"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row portfolio-items"&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 1" src="assets/img/video1.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=M7lc1UVf-VE" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 2" src="assets/img/video2.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=TB8q8tuCG0A" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 3" src="assets/img/video3.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=HK15Fwho6Ys" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 4" src="assets/img/video4.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=jhXmvHPak-o" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 5" src="assets/img/video5.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=DGYjy2lpffI" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 6" src="assets/img/video6.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=njos57IJf-0" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 7" src="assets/img/video7.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=CWYDxh7QD34" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 8" src="assets/img/video8.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=Er1kTF3smOE" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 9" src="assets/img/video9.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=saalGKY7ifU" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+                &lt;div class="grid"&gt;
+                    &lt;div class="portfolio-item effect-zoe"&gt;
+                        &lt;div class="video-wrapper"&gt;
+                            &lt;img class="img-responsive wow animated zoomIn" alt="Video Portfolio 10" src="assets/img/video10.png"&gt;
+                        &lt;/div&gt;
+                        &lt;figcaption id="lightbox-video"&gt;
+                            &lt;p class="icon-links"&gt;
+                                &lt;a href="https://www.youtube.com/watch?v=7qM-DRn10SE" data-lightbox-gallery="screenshots"&gt;
+                                    &lt;img class="img-responsive center-block img_res" src="assets/img/video-hover.png"&gt;
+                                &lt;/a&gt;
+                            &lt;/p&gt; &lt;!--  / .icon-links  --&gt;
+                        &lt;/figcaption&gt; &lt;!--  / #lightbox-video  --&gt;
+                    &lt;/div&gt; &lt;!--  / .portfolio-item effect-zoe  --&gt;
+                &lt;/div&gt; &lt;!--  / .grid  --&gt;
+
+            &lt;/div&gt; &lt;!--  / .row portfolio-items  --&gt;
+        &lt;/div&gt; &lt;!--  / .container  --&gt;
+    &lt;/section&gt; &lt;!-- /#portfolio --&gt;
+					</pre>
+
+					<!-- end of Portfolio Section -->
+
+
+
+                    <!-- Sponsors skill Section -->
+
+                    <h2 id="sponsors">Sponsors Section</h2>
+                    <p>In <strong>index.html</strong> file.  HTML structure of Sponsors Section.</p>
+                    <pre class="prettyprint lang-basic">
+&lt;!--  Sponsors Area  --&gt;
+
+    &lt;section id="sponsor"&gt;
+        &lt;div class="container"&gt;
+
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-12"&gt;
+                    &lt;div class="section-heading"&gt;
+                        &lt;h2 class="section-title"&gt;Sponsors&lt;/h2&gt;
+                        &lt;img src="assets/img/headline-bottom.png"&gt;
+                    &lt;/div&gt; &lt;!--  /.section-heading  --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt; &lt;!--  /.row  --&gt;
+
+            &lt;div class="row"&gt;
+                &lt;div class="sponsor-content"&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor1.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor2.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor3.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor4.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor5.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-2"&gt;
+                        &lt;div class="sponsor-img"&gt;
+                            &lt;img class="img-responsive center-block" src="assets/img/sponsor6.png"&gt;
+                        &lt;/div&gt; &lt;!--  /.sponsor-img  --&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt; &lt;!--  /.sponsor-content  --&gt;
+            &lt;/div&gt; &lt;!--  /.row  --&gt;
+        &lt;/div&gt; &lt;!--  /.container  --&gt;
+    &lt;/section&gt; &lt;!--  /#sponsor  --&gt;
+
+                    </pre>
+
+                    <!-- end of Sponsors skill Section -->
+
+
+					<!-- Testimonial section -->
+
+					<h2 id="testimonial">Testimonial Section</h2>
+					<p>In <strong>index.html</strong> file. HTML structure of the Testimonial Section</p>
+					<pre class="prettyprint lang-basic">
+&lt;!-- Testimonial Area --&gt; 
+
+    &lt;section id= "testimonial"&gt;
+        &lt;div class="testimonial-wrapper"&gt;
+            &lt;div class= "container"&gt;
+                &lt;div class= "row"&gt;
+
+                    &lt;div class= "col-md-6 col-md-offset-3"&gt;
+                        &lt;div id="client-speech" class="owl-carousel owl-theme"&gt;
+                            &lt;div class="item"&gt;
+                                &lt;div class= "row"&gt;
+                                    &lt;div class= "col-md-4"&gt;
+                                        &lt;img class="img-responsive center-block" src="assets/img/client-1.jpg"&gt;
+                                        &lt;div class="client-description text-center"&gt;
+                                            &lt;p class="client-name"&gt;John Doe&lt;/p&gt;
+                                            &lt;p class="client-title"&gt;Web Developer&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;  
+                                    &lt;div class= "col-md-8"&gt;
+                                        &lt;p class= "client-comment text-center"&gt;
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        &lt;/p&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="item"&gt;
+                                &lt;div class= "row"&gt;
+                                    &lt;div class= "col-md-4"&gt;
+                                        &lt;img class="img-responsive center-block" src="assets/img/client-2.jpg"&gt;
+                                        &lt;div class="client-description text-center"&gt;
+                                            &lt;p class="client-name"&gt;John Doe&lt;/p&gt;
+                                            &lt;p class="client-title"&gt;Web Developer&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;  
+                                    &lt;div class= "col-md-8"&gt;
+                                        &lt;p class= "client-comment text-center"&gt;
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        &lt;/p&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="item"&gt;
+                                &lt;div class= "row"&gt;
+                                    &lt;div class= "col-md-4"&gt;
+                                        &lt;img class="img-responsive center-block" src="assets/img/client-3.jpg"&gt;
+                                        &lt;div class="client-description text-center"&gt;
+                                            &lt;p class="client-name"&gt;John Doe&lt;/p&gt;
+                                            &lt;p class="client-title"&gt;Web Developer&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;  
+                                    &lt;div class= "col-md-8"&gt;
+                                        &lt;p class= "client-comment text-center"&gt;
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        &lt;/p&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;  
+    &lt;/section&gt;  &lt;!--  / #testimonial --&gt;  
+					</pre>
+
+					<!-- end of Testimonial Text with SVG -->
+
+
+					<!-- contact section -->
+
+					 <!-- ============ Contact Section ============= -->  
+
+                    <h2 id="contact">Contact Section</h2>
+                    <p>In <strong>index.html</strong> file. HTML structure of the Contact Section</p>
+                    <pre class="prettyprint lang-basic">
+
+&lt;!-- Contact Area --&gt;
+
+
+    &lt;section id="contact" class="block"&gt;
+        &lt;div class="contact-wrapper"&gt;
+            &lt;div class="block-content container"&gt;
+                &lt;div class="row"&gt;
+
+                    &lt;div class="col-md-4 col-sm-6 col-xs-12"&gt;
+                        &lt;div class="address"&gt;
+                            &lt;div class="contact-block-heading"&gt;
+                                &lt;h3&gt;Address&lt;/h3&gt;
+                            &lt;/div&gt;
+                            
+                            &lt;div class="address-desc"&gt;
+
+                                &lt;div class="row address-info"&gt;
+                                    &lt;div class="col-sm-2 address-info-icon"&gt;
+                                        &lt;i class="fa fa-envelope-o fa-fw"&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-sm-10 address-info-desc"&gt;
+                                        example@gmail.com
+                                    &lt;/div&gt;&lt;!--  /.address-info-desc --&gt;
+                                &lt;/div&gt;&lt;!--  /.address-info --&gt;
+
+                                &lt;div class="row address-info"&gt;
+                                    &lt;div class="col-sm-2 address-info-icon"&gt;
+                                        &lt;i class="fa fa-mobile fa-fw"&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-sm-10 address-info-desc"&gt;
+                                        +1-202-555-0144
+                                    &lt;/div&gt;&lt;!--  /.address-info-desc --&gt;
+                                &lt;/div&gt;&lt;!--  /.address-info --&gt;
+
+                                &lt;div class="row address-info"&gt;
+                                    &lt;div class="col-sm-2 address-info-icon"&gt;
+                                        &lt;i class="fa fa-map-marker fa-fw"&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-sm-10 address-info-desc"&gt;
+                                        &lt;p&gt;1600 Pennsylvania Ave NW,&lt;/p&gt;
+                                        &lt;p&gt;Washington, DC 20500,&lt;/p&gt;
+                                        &lt;p&gt;United States&lt;/p&gt;
+                                    &lt;/div&gt;&lt;!--  /.address-info-desc --&gt;
+                                &lt;/div&gt;&lt;!--  /.address-info --&gt;
+
+                                &lt;div class="row address-info"&gt;
+                                    &lt;div class="col-sm-2 address-info-icon"&gt;
+                                        &lt;i class="fa fa-globe fa-fw"&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-sm-10 address-info-desc"&gt;
+                                        &lt;a href="http://themewagon.com/"&gt;www.themewagon.com&lt;/a&gt;
+                                    &lt;/div&gt;&lt;!--  /.address-info-desc --&gt;
+                                &lt;/div&gt;&lt;!--  /.address-info --&gt;
+
+                            &lt;/div&gt;&lt;!--  /.address-desc --&gt;
+                        &lt;/div&gt; &lt;!--  /.address --&gt;
+                    &lt;/div&gt; &lt;!--  /.col-sm-4  --&gt;
+
+                    &lt;div class="col-md-4 col-sm-6 col-xs-12"&gt;
+                        &lt;div class="contact"&gt;
+                            &lt;div class="contact-block-heading"&gt;
+                                &lt;h3&gt;Contact&lt;/h3&gt;
+                            &lt;/div&gt;
+                                &lt;form action="contact-form.php" id="contactForm" method="post" name="contactform" class="contact-form" role="form"&gt;
+                                    &lt;input type="text" name="name" placeholder="Name" required&gt;
+                                    &lt;input type="email" name="email" placeholder="Email" required&gt;
+                                    &lt;textarea rows="5" name="message" placeholder="Say Something..." required&gt;&lt;/textarea&gt;
+                                    &lt;div id="contactFormResponse"&gt;&lt;/div&gt;
+                                    &lt;div class="form-group"&gt;
+                                        &lt;input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Say Hello"&gt;
+                                    &lt;/div&gt;
+                                &lt;/form&gt; &lt;!--  /.contact-form  --&gt;
+                        &lt;/div&gt; &lt;!--  /.contact  --&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col-md-4 col-sm-12 col-xs-12"&gt;
+                        &lt;div class="like-box center-block"&gt;
+                            &lt;div class="contact-block-heading"&gt;
+                                &lt;h3&gt;Like Us&lt;/h3&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="fb-like-box" data-href="https://www.facebook.com/TechNextit" data-width="360px" data-height="364px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"&gt;&lt;/div&gt; &lt;!--  /.fb-like-box  --&gt;
+                            
+                        &lt;/div&gt; &lt;!--  /.like-box  --&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;&lt;!--  /.row --&gt;
+            &lt;/div&gt;&lt;!--/.container--&gt;
+        &lt;/div&gt; &lt;!--  /.contact-wrapper  --&gt;
+    &lt;/section&gt;&lt;!--/#contact--&gt;
+					</pre>
+
+					<!-- end of contact section -->
+
+
+					<!-- working contact form -->
+
+                    <h2 id="contact-form">Working Contact form</h2>
+                    <p>Open the file <strong>contact-form.php</strong> and in <strong>line 46 and 47</strong> enter your data:</p>
+
+                    <pre class="prettyprint lang-basic">
+// Your email
+$to = 'info@themewagon.com';
+$subject = 'Contact Form : Youtuber -  Youtube Marketer Responsive HTML5 Template';
+                    </pre>
+<br/>
+                    <h4>If Contact form form not working</h4>
+                    <p>You need to check is PHP mail() function working.</p>
+<p>
+<textarea class="form-control" rows="4" style="widht:100%">
+<?php
+    mail('you@yourmail.com','Test mail','The mail function is working!');
+    echo 'Mail sent!';
+?>
+</textarea>
+</p>
+                    <ul>
+                    <li>Save this code as mailtest.php</li>
+                        <li>change you@yourmail.com to your e-mail address</li>
+                        <li>upload mailtest.php to your server</li>
+                        <li>open mailtest.php in your browser (http://yourwebsite.com/mailtest.php)</li>
+                        <li>check your inbox to see if a test message arrived.</li>
+                    </ul>
+                    <strong>If it works:</strong>
+
+                    <ul>
+                        <li>double-check your form script for errors (like e-mail address misspelling)</li>
+                        <li>use the same e-mail address as your form recipient</li>
+                        <li>double-check your SPAM filters and SPAM/Junk/Bulk mailboxes</li>
+                    </ul>
+
+                    <strong>If it not</strong>
+
+                    <p>Contact your host and ask them to check PHP mail() setting.</p>
+
+                    <!-- end of working contact form -->
+
+
+
+
+
+					<!-- Footer -->
+
+					<!-- Footer Section -->
+                    <h2 id="footer">Footer Section</h2>
+                    <p>In <strong>index.html</strong> file. HTML structure of the Footer Section</p>
+                     <pre class="prettyprint lang-basic">
+
+&lt;!-- Footer Area --&gt;
+
+    &lt;footer&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+
+                &lt;div class="col-sm-6 col-xs-12"&gt;
+                    &lt;p class="copyright"&gt;© Copyright 2015 &lt;a href="http://wwww.technextit.com" target="_blank"&gt;Technext&lt;/a&gt;&lt;/p&gt; &lt;!--  /.copyright  --&gt;
+                &lt;/div&gt;
+
+                &lt;div class="col-sm-6 col-xs-12"&gt;
+                    &lt;p class="designed"&gt;Designed and Developed by &lt;a href="http://themewagon.com" target="_blank"&gt;Themewagon&lt;/a&gt;&lt;/p&gt; &lt;!--  /.designed  --&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt; &lt;!--  /.row  --&gt;
+        &lt;/div&gt; &lt;!--  /.container  --&gt;
+    &lt;/footer&gt;
+                     </pre>
+					<!-- end of Footer Section -->
+
+
+
+					<!-- attributions -->
+
+					<h2 id="attribution">Attribution</h2>
+					<p>Following libraries and plugins are used in Youtuber template:</p>
+					<ul>
+                        <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+                        <li><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></li>
+                        <li><a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> </li>
+                        <li><a href="http://fontawesome.io/" target="_blank">Fontawesome</a></li>
+                        <li><a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
+                        <li><a href="http://owlgraphic.com/owlcarousel/" target="_blank">OWL Carousel</a></li>
+                        <li><a href="http://fittextjs.com/" target="_blank">FitText</a></li>
+                        <li><a href="https://github.com/gilbitron/Nivo-Lightbox" target="_blank">Nivo Lightbox</a></li>
+                        <li><a href="#" target="_blank">Smooth Scroll</a></li>
+                    </ul>
+					<br/><br/>
+
+					<!-- end of attributions -->
+
+
+
+
+
+					<!-- changelog -->
+
+					<h2 id="changelog">Changelog</h2>
+
+					<p> Version 1.0</p>
+					<pre class="prettyprint">- Initial Release</pre>
+
+					<!-- end of changelog -->
+						
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript files -->
+	<!-- jQuery -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!--HL -->
+	<script src="assets/js/prettify/prettify.js"></script>
+	<!-- Custom scripts -->
+	<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
