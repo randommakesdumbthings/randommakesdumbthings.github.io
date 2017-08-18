@@ -147,14 +147,13 @@ a:hover,a:active,a:focus{
 }
 
 .header-right {
-    background: url(../img/header-right.png);
+    background: url(../img/header-right-r.png);
     width: 50%;
     float: right;
     background-color: #030303;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 22%;
 }
 
 /*
