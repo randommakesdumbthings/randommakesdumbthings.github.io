@@ -312,12 +312,12 @@ a:hover,a:active,a:focus{
     background-position:-110px 0
 }
 
-.latest_videos .prev.disabled,
-.latest_videos .next.disabled {
-    opacity:0.5;
-    filter:alpha(opacity=50);
-    cursor:default;
-}
+//.latest_videos .prev.disabled,
+//.latest_videos .next.disabled {
+//    opacity:0.5;
+//    filter:alpha(opacity=50);
+//    cursor:default;
+//}
 
 /*
 =======================================================================
@@ -416,12 +416,12 @@ a:hover,a:active,a:focus{
 */
 
 #portfolio .container {
-    width: 100%;
-    padding: 0px;
+    width: 80%;
+    padding: 5px;
 }
 
 #portfolio .portfolio-items {
-    margin: 0px;
+    margin: 20px 0 0 0;
 }
 
 /* ==============================  Image hover effect ============================== */
@@ -439,9 +439,9 @@ a:hover,a:active,a:focus{
     transform: translate3d(0,0,0);
 }
 
-.effect-zoe .video-wrapper img{
-    opacity: 0.4;
-}
+//.effect-zoe .video-wrapper img{
+//    opacity: 0.4;
+//}
 
 .effect-zoe:hover .video-wrapper>img{
     opacity: 1;
